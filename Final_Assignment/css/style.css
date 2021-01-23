@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0 3rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #f4f4f4;
+} /* Unvisited link  */
+a:visited {
+  color: #f4f4f4;
+} /* Visited link    */
+a:hover {
+  color: #f4f4f4;
+} /* Mouse over link */
+a:active {
+  color: #f4f4f4;
+} /* Selected link   */
+
+a,
+btn {
+  text-decoration: none;
+}
+
+/* Contact Bar */
+
+#contact-bar-bg {
+  background-color: #333;
+}
+
+#contact-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 3rem;
+}
+
+#social-icons {
+  display: flex;
+}
+
+#social-icons li {
+  margin-right: 1rem;
+}
+
+#contact-info {
+  display: flex;
+  align-items: center;
+}
+#contact-info i {
+  color: #a2d84c;
+}
+
+#contact-info button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  cursor: pointer;
+  background-color: #a2d84c;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #333;
+  border-radius: 4px;
+  box-shadow: npm i awesome-cli-alerts;
+}
+#contact-info li {
+  margin-left: 1rem;
+}
+
+/* NAVBAR */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  align-items: center;
+}
+
+#navbar ul {
+  display: flex;
+  /* color: #333; */
+}
+
+#navbar ul li {
+  margin-right: 0.8rem;
+  font-size: 0.9rem;
+}
+
+#navbar ul li a {
+  color: #333;
+  text-transform: uppercase;
+}
